@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper{
+    background-color: #1F1F1F;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+img{
+    border-radius: 999px;
+    margin-bottom: 24px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.Name{
+    margin-bottom: 4px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.location{
+    margin-bottom: 24px;
+    color: #C4F82A;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.position{
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.buttonPrimary{
+    display: block;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.buttonPrimary:last-child{
+    margin-bottom: 0px;
+}
+
+.buttonPrimary{
+    margin-bottom: 16px;
+}
+
+.buttons{
+    width: 304px;
+}
+
+.buttonPrimary:hover{
+    background-color: rgb(196, 248, 42);
+    cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+    .buttons{
+        width: 378px;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .buttons{
+        width: 279px;
+    }
+    .wrapper{
+        padding: 24px;
+    }
+}
